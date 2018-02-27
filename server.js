@@ -5,14 +5,14 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var content={
+var articleOne ={
     title:'Article one |vaishnavi yadala',
     heading:'Article one',
     date:'Sep-10-1999',
     content:`            <p>The kis the content for my first articleThe kis the content for my first articleThe kis the content for my first articleThe kis the content for my first articleThe kis the content for my first articleThe kis the content for my first article
                      </p>
                      <p>The kis the content for my first articleThe kis the content for my first articleThe kis the content for my first articleThe kis the content for my first articleThe kis the content for my first articleThe kis the content for my first article 
-                     </p>`
+</p>`
                      
 };
 function createTemplate (data){
